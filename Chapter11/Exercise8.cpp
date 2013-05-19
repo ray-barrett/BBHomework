@@ -1,5 +1,6 @@
 #include <iostream>
 
+// THis method of passing the reference makes the program much more readable. 
 char& func(char& c)
 {
 	c = 'a';
